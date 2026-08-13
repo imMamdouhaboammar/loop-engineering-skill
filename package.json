@@ -1,0 +1,21 @@
+{
+  "name": "loop-engineering-skill",
+  "version": "1.0.0",
+  "description": "AI Agent skill for Loop Engineering and Multi-Agent Swarm Orchestration",
+  "main": "SKILL.md",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-skill.mjs"
+  },
+  "keywords": [
+    "loop-engineering",
+    "agent-skills",
+    "multi-agent",
+    "swarm-orchestration",
+    "claude-code",
+    "codex",
+    "gemini-cli"
+  ],
+  "author": "Mamdouh Aboammar",
+  "license": "MIT"
+}
