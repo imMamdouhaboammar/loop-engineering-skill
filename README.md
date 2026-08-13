@@ -16,14 +16,28 @@ An production-grade **AI Agent Skill** for **Loop Engineering & Multi-Agent Swar
 
 ---
 
+## 📚 Documentation Index
+
+- [🚀 Quickstart Guide](docs/QUICKSTART.md) — Installation and execution instructions per agent runtime.
+- [🏛️ Architecture Guide](docs/ARCHITECTURE.md) — Multi-agent swarm topology and specialized role definitions.
+- [🧩 Primitives Matrix](docs/PRIMITIVES.md) — Deep dive into `minimal-fix`, `loop-verifier`, `loop-budget`, and `loop-constraints`.
+- [💡 Execution Examples](docs/EXAMPLES.md) — Real-world autonomous bug reproduction and Dev-QA loop logs.
+
+---
+
 ## 📁 Repository Structure
 
 ```
 loop-engineering-skill/
 ├── SKILL.md                 # Core Skill Definition (agentskills.io standard)
-├── README.md                # Documentation & Quickstart
+├── README.md                # Documentation Index & Quickstart
 ├── LICENSE                  # MIT License
 ├── package.json             # NPM package & validation scripts
+├── docs/                    # Full Documentation Suite
+│   ├── QUICKSTART.md
+│   ├── ARCHITECTURE.md
+│   ├── PRIMITIVES.md
+│   └── EXAMPLES.md
 ├── references/              # Detailed Architecture & Primitives Guides
 │   ├── loop-primitives.md
 │   └── swarm-orchestration.md
@@ -54,6 +68,13 @@ Include in project root `.agents/skills/` directory:
 ```bash
 mkdir -p .agents/skills/loop-engineering
 cp SKILL.md .agents/skills/loop-engineering/
+```
+
+### 4. Cursor & OpenCode
+Copy `SKILL.md` to your workspace `.opencode/skills/`:
+```bash
+mkdir -p .opencode/skills/loop-engineering
+cp SKILL.md .opencode/skills/loop-engineering/
 ```
 
 ---
