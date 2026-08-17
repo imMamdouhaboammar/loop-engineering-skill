@@ -5,7 +5,9 @@
   "main": "SKILL.md",
   "type": "module",
   "scripts": {
-    "validate": "node scripts/validate-skill.mjs"
+    "validate": "node scripts/validate-skill.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm run validate && npm test"
   },
   "keywords": [
     "loop-engineering",
